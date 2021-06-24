@@ -4,7 +4,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Edstep',
-  tagline: 'Edstep is the most versatile option for students, course instructors and course designers',
+  tagline: 'Edstep is the most versatile option for students, course instructors and course designers to take and create highly interactive online courses',
   url: 'https://docs.edstep.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -57,7 +57,7 @@ module.exports = {
           ],
         },
         {
-          title: 'Tutorials - Basics',
+          title: 'Tutorials',
           items: [
             {
               label: 'Create a course',
@@ -75,14 +75,22 @@ module.exports = {
               label: 'Publish a course',
               to: '/docs/tutorials/publish-course',
             },
+            {
+              label: 'Set-up Course Payments',
+              to: '/docs/tutorials/course-payments',
+            },
           ],
         },
         {
-          title: 'Tutorials - Extras',
+          title: 'Developers',
           items: [
             {
-              label: 'Set up course payments',
-              to: '/docs/tutorials/course-payments',
+              label: 'Getting started',
+              to: '/docs/developers/getting-started',
+            },
+            {
+              label: 'Architecture',
+              to: '/docs/developers/architecture',
             },
           ],
         },
