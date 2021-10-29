@@ -1,0 +1,25 @@
+spring:
+  profiles.active: default
+
+---
+
+spring:
+  profiles: default
+  datasource:
+    url: jdbc:postgresql://postgres/indexingservice
+    username: postgres
+    password: thepgpassword
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
+
+server.port: 8093
+
+logging:
+  level:
+    com.cerpus: DEBUG
+
+cerpus:
+  elasticsearch:
+    hosts: http://elasticsearch-old:9200,http://elasticsearch-old:9200
